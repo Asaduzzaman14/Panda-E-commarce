@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>panda</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Panda</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
 
@@ -28,13 +29,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">product</a>
+                            <a class="nav-link" href="#shoes">shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
+                            <a class="nav-link" href="#Backpak">Backpak</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contuct</a>
+                            <a class="nav-link" href="#Contuct">Contuct</a>
                         </li>
                     </ul>
 
@@ -42,12 +43,12 @@
             </div>
         </nav>
         <!--  -->
-        <div id="carouselExampleControls" class=" container carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls " class=" container carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
 
-                    <div class=" d-flex align-items-center row bg-info p-5">
+                    <div class=" d-flex align-items-center row home-bg p-5">
                         <div class="col-lg-7">
                             <h1>Cool Dude Headphone
                             </h1>
@@ -73,7 +74,7 @@
 
                 <div class="carousel-item">
 
-                    <div class=" d-flex align-items-center row bg-info p-5">
+                    <div class=" d-flex align-items-center row home-bg p-5">
                         <div class="col-lg-7">
                             <h1>Mi LED TV 4A PRO 32
 
@@ -95,7 +96,7 @@
                 </div>
                 <div class="carousel-item ">
 
-                    <div class=" d-flex align-items-center row bg-info p-5">
+                    <div class=" d-flex align-items-center row home-bg p-5">
                         <div class="col-lg-7">
                             <h1>X-Box for your living room
 
@@ -147,23 +148,23 @@
                 <div class="col-lg-4">
                     <div class=" bg-warning d-flex d-flex align-items-center p-4 justify-content-between rounded">
                         <h5 class="card-title text-white">Watch</h5>
-                        <img src="images/categories/watch.png" class="w-25" alt="...">
+                        <img src="images/categories/watch.png" class="categories" alt="...">
                     </div>
                 </div>
 
 
                 <div class="col-lg-4">
-                    <div class=" bg-info d-flex d-flex align-items-center p-4 justify-content-between rounded">
-                        <h5 class="card-title text-white">Watch</h5>
-                        <img src="images/categories/bag.png" class="w-25" alt="...">
+                    <div class=" home-bg d-flex d-flex align-items-center p-4 justify-content-between rounded">
+                        <h5 class="card-title text-white">BagPack</h5>
+                        <img src="images/categories/bag.png" class="categories" alt="...">
                     </div>
                 </div>
 
 
                 <div class="col-lg-4">
                     <div class=" bg-warning d-flex d-flex align-items-center p-4 justify-content-between rounded">
-                        <h5 class="card-title text-white">Watch</h5>
-                        <img src="images/categories/shoes.png" class="w-25" alt="...">
+                        <h5 class="card-title text-white">Shoes</h5>
+                        <img src="images/categories/shoes.png" class="categories" alt="...">
                     </div>
                 </div>
 
@@ -176,7 +177,7 @@
         <!--------------------->
 
 
-        <section class="container bg-light pb-3">
+        <section class="container bg-light pb-3" id="shoes">
             <h2>Shoes</h2>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -191,7 +192,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">buy Now</button>
+                            <button class="btn buy-now-button">buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -206,7 +207,7 @@
                         </div>
 
                         <div class="m-3">
-                            <button class="btn btn-warning">buy Now</button>
+                            <button class="btn buy-now-button">buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -221,7 +222,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">buy Now</button>
+                            <button class="btn buy-now-button">buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -232,7 +233,7 @@
         <!--  -->
         <!-- backpak -->
         <!--  -->
-        <section class="container bg-light pb-3">
+        <section class="container bg-light pb-3" id="Backpak">
             <h2 class="pt-5 pb-3">Backpak</h2>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -247,7 +248,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">buy Now</button>
+                            <button class="btn buy-now-button">buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -262,7 +263,7 @@
                         </div>
 
                         <div class="m-3">
-                            <button class="btn btn-warning">buy Now</button>
+                            <button class="btn buy-now-button">buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -277,7 +278,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">buy Now</button>
+                            <button class="btn buy-now-button">buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -288,7 +289,8 @@
         <!--------------------->
         <!-- login section  -->
         <!---------------------->
-        <section class="container bg-info rounded-3 p-3 my-5 d-flex align-items-center justify-content-center">
+        <section id="Contuct"
+            class="container home-bg rounded-3 p-3 my-5 d-flex align-items-center justify-content-center">
 
             <div>
                 <h2>LET'S STAY IN TOUCH
@@ -297,7 +299,7 @@
                 </p>
                 <input type="email" placeholder="Enter Email">
                 <br>
-                <button class="btn btn-primary py-1 px-3 mt-4">Send</button>
+                <button class="btn buy-now-button py-1 px-3 mt-4">Send</button>
             </div>
 
         </section>
